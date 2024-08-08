@@ -35,7 +35,7 @@ export default function MyHeader() {
         </a>
         &nbsp;&nbsp;{"•"}&nbsp;&nbsp;
         <a
-          
+          href="https://github.com/onrtysz"
           target="_blank"
           rel="noopener noreferrer"
           className={"colorHighlight"}
@@ -44,7 +44,7 @@ export default function MyHeader() {
         </a>
         &nbsp;&nbsp;{"•"}&nbsp;&nbsp;
         <a
-          
+          href="https://www.linkedin.com/in/onur-t%C3%BCys%C3%BCz-bb7104141/"
           target="_blank"
           rel="noopener noreferrer"
           className={"colorHighlight"}
