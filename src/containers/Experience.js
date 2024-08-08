@@ -55,7 +55,7 @@ class Experience extends React.Component {
         <SectionItem
           companyTitle={
             <a
-              href="https://olymposhq.com/"
+              href="https://www.kns.com.tr/"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "rgba(0,0,0,.87)" }}
