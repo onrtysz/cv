@@ -16,7 +16,7 @@ export class SkillRow extends React.Component {
             style={{
               display: "flex",
               flexDirection: "row",
-              justifyContent: "end",
+              justifyContent: "start",
               alignItems: "center",
               height: "100%",
             }}
