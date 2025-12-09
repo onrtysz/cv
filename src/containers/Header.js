@@ -37,7 +37,7 @@ export default function MyHeader() {
           color="linkedin"
           onClick={() => changeLanguage(language === "en" ? "tr" : "en")}
         >
-          {language === "en" ? "TR" : "EN"}{" "}
+          {language === "en" ? "EN" : "TR"}{" "}
         </Button>
       </div>
 
