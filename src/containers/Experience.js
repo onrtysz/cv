@@ -8,12 +8,27 @@ const translations = {
     title: "EXPERIENCE",
     jobs: [
       {
+        companyTitle: "Onedio",
+        companyLink: "https://www.onedio.com/",
+        location: "Istanbul, Turkey (Remote)",
+        jobTitle: "Software Developer",
+        startDate: "04/2025",
+        endDate: "Present",
+        items: [
+          "Developed and maintained high-performance backend services using Node.js and Koa.js framework within a microservices architecture to handle millions of daily user interactions and content delivery for Turkey's leading digital media platform.",
+          "Designed and implemented scalable RESTful APIs and data processing pipelines using AWS services and Kubernetes to support content management, user analytics, and real-time engagement features across web and mobile platforms.",
+          "Built robust data storage and retrieval systems utilizing MongoDB for content management, DynamoDB for user sessions and analytics, and Elasticsearch for advanced search capabilities and content recommendation algorithms.",
+          "Architected and deployed microservices infrastructure on AWS using Docker containers, implementing CI/CD pipelines, monitoring solutions, and auto-scaling policies to ensure 99.9% uptime and optimal performance during traffic spikes.",
+          "Collaborated with frontend teams to develop responsive user interfaces using React.js and implemented comprehensive testing strategies including unit and integration testing to maintain code quality and system reliability.",
+        ],
+      },
+      {
         companyTitle: "VenueX",
         companyLink: "https://venuex.io/",
         location: "Istanbul, Turkey (Remote)",
         jobTitle: "Software Developer",
         startDate: "02/2023",
-        endDate: "Present",
+        endDate: "04/2025",
         items: [
           "Designed and maintained an ETL (Extract, Transform, Load) pipeline to provide retailers' store, product, and inventory data to online platforms using AWS services like Lambda, S3, ECS, ECR with Terraform. Developed a hashing-based data flow difference tool that reduced ETL load by over 80%.",
           "Ensured the data produced by the pipeline was securely and correctly delivered to respective platforms via APIs (Google Business Profile, Google Content API, Google Ads, Google Merchant Center, Meta, Apple).",
@@ -25,7 +40,7 @@ const translations = {
         companyTitle: "KNS Information Technologies",
         companyLink: "https://www.kns.com.tr/",
         location: "Istanbul, Turkey (Remote)",
-        jobTitle: "Software Developer-GIS Specialist",
+        jobTitle: "Software Developer",
         startDate: "07/2019",
         endDate: "02/2023",
         items: [
@@ -52,12 +67,27 @@ const translations = {
     title: "DENEYİM",
     jobs: [
       {
+        companyTitle: "Onedio",
+        companyLink: "https://www.onedio.com/",
+        location: "İstanbul, Türkiye (Uzaktan)",
+        jobTitle: "Software Developer",
+        startDate: "04/2025",
+        endDate: "Halen",
+        items: [
+          "Türkiye'nin önde gelen dijital medya platformunda milyonlarca günlük kullanıcı etkileşimini ve içerik dağıtımını desteklemek için microservices mimarisinde Node.js ve Koa.js framework kullanarak yüksek performanslı backend servisleri geliştirdim ve sürdürdüm.",
+          "Web ve mobil platformlarda içerik yönetimi, kullanıcı analitiği ve gerçek zamanlı etkileşim özelliklerini desteklemek için AWS hizmetleri ve Kubernetes kullanarak ölçeklenebilir RESTful API'ler ve veri işleme pipeline'ları tasarladım ve uyguladım.",
+          "İçerik yönetimi için MongoDB, kullanıcı oturumları ve analitiği için DynamoDB, gelişmiş arama yetenekleri ve içerik öneri algoritmaları için Elasticsearch kullanan güçlü veri depolama ve geri alma sistemleri kurdum.",
+          "Traffic artışları sırasında %99.9 uptime ve optimal performans sağlamak için Docker konteynerları kullanarak AWS üzerinde microservices altyapısını tasarladım, CI/CD pipeline'ları, izleme çözümleri ve otomatik ölçeklendirme politikaları uyguladım.",
+          "Frontend ekipleriyle React.js kullanarak responsive kullanıcı arayüzleri geliştirmek için işbirliği yaptım ve kod kalitesini ve sistem güvenilirliğini korumak için unit ve entegrasyon testler dahil kapsamlı test stratejileri uyguladım.",
+        ],
+      },
+      {
         companyTitle: "VenueX",
         companyLink: "https://venuex.io/",
         location: "İstanbul, Türkiye (Uzaktan)",
-        jobTitle: "Yazılım Geliştirici",
+        jobTitle: "Software Developer",
         startDate: "02/2023",
-        endDate: "Halen",
+        endDate: "04/2025",
         items: [
           "Perakendecilerin mağaza, ürün ve stok verilerini online platformlara sunmak için AWS hizmetleri (Lambda, S3, ECS, ECR) ve Terraform ile ETL (Extract, Transform, Load) pipeline tasarımını yaptım ve sürdürdüm. Hashing tabanlı veri fark aracını geliştirerek ETL yükünü %80'in üzerinde azalttım.",
           "Pipeline tarafından üretilen verilerin ilgili platformlara güvenli ve doğru bir şekilde API'lar aracılığıyla iletilmesini sağladım (Google Business Profile, Google Content API, Google Ads, Google Merchant Center, Meta, Apple).",
@@ -69,7 +99,7 @@ const translations = {
         companyTitle: "KNS Bilgi Teknolojileri",
         companyLink: "https://www.kns.com.tr/",
         location: "İstanbul, Türkiye (Uzaktan)",
-        jobTitle: "Yazılım Geliştirici-GIS Uzmanı",
+        jobTitle: "Software Developer",
         startDate: "07/2019",
         endDate: "02/2023",
         items: [
@@ -81,7 +111,7 @@ const translations = {
         companyTitle: "Geotek Coğrafi Bilgi Sistemleri",
         companyLink: "#",
         location: "İstanbul, Türkiye",
-        jobTitle: "GIS Uzmanı",
+        jobTitle: "GIS Specialist",
         startDate: "12/2016",
         endDate: "06/2019",
         items: [

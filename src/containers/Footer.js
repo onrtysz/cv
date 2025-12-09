@@ -1,5 +1,4 @@
 import React from "react";
-import { CV_VERSION, DATE } from "../constants";
 
 class Footer extends React.Component {
   render() {
@@ -11,7 +10,7 @@ class Footer extends React.Component {
           flexDirection: "column",
           marginTop: "20px",
         }}
-        className={"px10"}
+        className="px10"
       >
         <span>
           Designed and developed by{" "}
@@ -22,33 +21,6 @@ class Footer extends React.Component {
           >
             Onur TÜYSÜZ
           </a>{" "}
-          ▸ Made with <span className="colorHeart">❤</span> in İstanbul, Turkey{" "}
-        </span>
-        <span>
-          Powered by{" "}
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://react.semantic-ui.com/"
-          >
-            Semantic UI
-          </a>
-          {" & "}
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://reactjs.org/"
-          >
-            React
-          </a>{" "}
-          ▸ {CV_VERSION} ▸ {DATE} ▸{" "}
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-          
-          >
-            source
-          </a>
         </span>
       </div>
     );

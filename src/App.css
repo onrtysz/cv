@@ -83,3 +83,46 @@ div#narrowSkillTitle {
 @page {
   size: A4;
 }
+
+/* Profile photo styles */
+.profile-photo-container {
+  width: 120px;
+  height: 160px;
+  border-radius: 40px;
+  border: 2px solid #ddd;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.profile-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .profile-photo-container {
+    width: 80px;
+    height: 106px;
+    border-radius: 30px;
+    margin-right: 15px;
+  }
+
+  .fontHeader {
+    font-size: 18px !important;
+  }
+}
+
+@media print {
+  .profile-photo-container {
+    width: 100px;
+    height: 133px;
+    border-radius: 35px;
+    border: 1px solid #333;
+  }
+}
