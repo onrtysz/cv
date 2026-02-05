@@ -19,8 +19,8 @@ class SectionItem extends React.Component {
           <div className={"px16"} style={{ marginRight: "10px" }}>
             <strong>{this.props.companyTitle}</strong>
           </div>
-          <div className={"px16"}>
-            <strong>{this.props.location}</strong>
+          <div className={"px12"}>
+            {this.props.location}
           </div>
         </div>
         <div
@@ -34,7 +34,7 @@ class SectionItem extends React.Component {
           <div className={"px14"} style={{ marginRight: "10px" }}>
             <em>{this.props.jobTitle}</em>
           </div>
-          <div className={"px14"}>
+          <div className={"px12"}>
             {this.props.startDate ? [this.props.startDate, " – "] : null}
             {this.props.endDate || "Present"}
           </div>
@@ -42,7 +42,31 @@ class SectionItem extends React.Component {
         {this.props.description && (
           <div className={"px12"}>{this.props.description}</div>
         )}
-        {this.props.items ? (
+        {this.props.roleGroups ? (
+          <div style={{ marginTop: "10px" }}>
+            {this.props.roleGroups.map((roleGroup, rgIdx) => (
+              <div key={rgIdx} style={{ marginBottom: "8px" }}>
+                <div className={"px12"} style={{ fontWeight: "600", fontStyle: "italic", marginBottom: "4px", paddingLeft: "1em" }}>
+                  {roleGroup.roleTitle}
+                </div>
+                <List
+                  bulleted
+                  style={{
+                    paddingLeft: "2em",
+                    marginTop: "4px",
+                    marginBottom: "0px",
+                  }}
+                >
+                  {roleGroup.items.map((item, ix) => (
+                    <List.Item key={ix} className={"px12"}>
+                      {item}
+                    </List.Item>
+                  ))}
+                </List>
+              </div>
+            ))}
+          </div>
+        ) : this.props.items ? (
           <List
             bulleted
             style={{

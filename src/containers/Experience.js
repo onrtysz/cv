@@ -11,9 +11,9 @@ const translations = {
         companyTitle: "Onedio",
         companyLink: "https://www.onedio.com/",
         location: "Istanbul, Turkey (Remote)",
-        jobTitle: "Software Developer",
+        jobTitle: "Full Stack Developer",
         startDate: "04/2025",
-        endDate: "Present",
+        endDate: "02/2026",
         items: [
           "Developed and maintained high-performance backend services using Node.js and Koa.js framework within a microservices architecture to handle millions of daily user interactions and content delivery for Turkey's leading digital media platform.",
           "Designed and implemented scalable RESTful APIs and data processing pipelines using AWS services and Kubernetes to support content management, user analytics, and real-time engagement features across web and mobile platforms.",
@@ -26,39 +26,65 @@ const translations = {
         companyTitle: "VenueX",
         companyLink: "https://venuex.io/",
         location: "Istanbul, Turkey (Remote)",
-        jobTitle: "Software Developer",
+        jobTitle: "Business/Technical Analyst & Full Stack Developer",
         startDate: "02/2023",
         endDate: "04/2025",
-        items: [
-          "Designed and maintained an ETL (Extract, Transform, Load) pipeline to provide retailers' store, product, and inventory data to online platforms using AWS services like Lambda, S3, ECS, ECR with Terraform. Developed a hashing-based data flow difference tool that reduced ETL load by over 80%.",
-          "Ensured the data produced by the pipeline was securely and correctly delivered to respective platforms via APIs (Google Business Profile, Google Content API, Google Ads, Google Merchant Center, Meta, Apple).",
-          "Developed and maintained backend RESTful APIs (NestJS, TypeScript) for data processing and delivery. Designed user control panels, report pages (ReactJS, TypeScript, MUI), and data integration channels. Conducted end-to-end tests using Cypress for user scenarios.",
-          "Managed and troubleshooted Terraform-deployed infrastructure stacks (EC2, ECS) and MongoDB database layers. Configured custom alerts (SNS) for early detection of infrastructure and database anomalies.",
+        roleGroups: [
+          {
+            roleTitle: "Business/Technical Analyst Role",
+            items: [
+              "Gathered and analyzed business requirements from retail customers for e-commerce platform integrations. Transformed complex data integration needs into BRD and Use Case documents for ETL pipeline development.",
+              "Organized stakeholder workshops using Miro, performing collaborative requirements mapping and process visualization. Created data flow diagrams for multi-platform integrations (Google Business Profile, Google Ads, Meta, Apple).",
+              "Validated API integrations using Postman and Swagger, ensuring data accuracy between retail systems and e-commerce platforms. Wrote complex SQL queries for inventory and sales reporting.",
+              "Conducted API tests with SOAP UI, performed functional and regression testing. Managed UAT processes ensuring seamless data synchronization across multiple platforms.",
+              "Performed sprint planning and backlog management in JIRA, documented technical specifications in Confluence following Agile methodology.",
+            ],
+          },
+          {
+            roleTitle: "Full Stack Developer Role",
+            items: [
+              "Developed RESTful backend APIs (NestJS, TypeScript) and designed user control panels with reporting dashboards (ReactJS, TypeScript, MUI).",
+              "Designed ETL pipeline with AWS services (Lambda, S3, ECS, ECR) and Terraform. Developed a hashing-based optimization tool that reduced ETL load by over 80%.",
+              "Managed Terraform-deployed infrastructure and MongoDB databases, implemented monitoring solutions and proactive alert mechanisms (SNS).",
+            ],
+          },
         ],
       },
       {
         companyTitle: "KNS Information Technologies",
         companyLink: "https://www.kns.com.tr/",
         location: "Istanbul, Turkey (Remote)",
-        jobTitle: "Software Developer",
+        jobTitle: "Business/Technical Analyst",
         startDate: "07/2019",
         endDate: "02/2023",
         items: [
-          "Specialized in creating indoor maps for large facilities like shopping malls, airports, and hospitals, integrating them with Apple and Google Maps.",
-          "I actively participated in all integration and development efforts, including Frontend, Backend, DevOps, and UI/UX design, for integration management. In this scope, I developed and maintained RESTful backend APIs (NestJS, TypeScript) for data processing and delivery. Designed user control panels, reporting pages (ReactJS, TypeScript, MUI), and data integration channels. Conducted end-to-end tests using Cypress for user scenarios. Additionally, I managed and troubleshooted Terraform-deployed infrastructure stacks (EC2, ECS) and MongoDB database layers. Configured custom alerts (SNS) for early detection of infrastructure and database anomalies.",
+          "Led requirements gathering processes for indoor mapping solutions with Apple and Google Maps integration for shopping malls, airports, and hospitals. Prepared BRD, GTD, TTD, and Use Case documentation.",
+          "Reviewed UI/UX mockups with design teams on Figma, ensuring alignment between user requirements and interface designs. Created user flow diagrams and wireframe feedback documentation.",
+          "Modeled business processes and system integrations using MS Visio, created detailed data flow diagrams and workflow documentation for location-based services.",
+          "Tested RESTful APIs with Postman and validated SOAP services with SOAP UI, ensuring map data synchronization accuracy between internal systems and Apple/Google platforms.",
+          "Performed database analysis with complex SQL queries to validate location data integrity and created reports for stakeholder decision-making processes.",
+          "Coordinated UAT sessions with end-users at client locations, documented feedback and managed defect resolutions through JIRA.",
+          "Maintained project documentation and knowledge base in Confluence, facilitating knowledge transfer across development cycles.",
+          "Collaborated with iOS and Android development teams to ensure mapping SDK integrations met functional specifications.",
         ],
       },
       {
         companyTitle: "Geotek Geographic Information Systems",
         companyLink: "#",
         location: "Istanbul, Turkey",
-        jobTitle: "GIS Specialist",
+        jobTitle: "Business/Technical Analyst",
         startDate: "12/2016",
         endDate: "06/2019",
         items: [
-          "Successfully created 3D GIS maps of complex structures, including metro stations covering mechanical (sanitary, fire, ventilation), electrical, and structural disciplines by analyzing thousands of maps.",
-          "Conducted extensive work in 3D modeling and data integration throughout the project, ensuring the structural elements of stations were accurately integrated to meet high precision and compatibility standards at all stages.",
-          "Managed and controlled the prepared 3D data models from the start to the end of the project, maintaining data integrity and accessibility. Used advanced data analysis techniques to overcome project-specific challenges.",
+          "Organized stakeholder meetings to identify business requirements and integration needs.",
+          "Prepared BRD documents and actively participated in end-to-end management of documentation processes.",
+          "Monitored project and request compliance with SDLC processes.",
+          "Managed requests, defects, and bugs through JIRA; created dashboards in JIRA and maintained documentation in Confluence. Tracked project timeline and progress.",
+          "Performed data analysis using SQL and similar tools.",
+          "Conducted comprehensive data analysis on thousands of engineering documents across mechanical, electrical, and structural disciplines, creating detailed requirement specifications and functional documentation.",
+          "Collaborated with cross-functional teams including engineers, project managers, and technical staff to ensure alignment between business needs and technical implementation throughout the project lifecycle.",
+          "Developed and maintained project documentation, data quality standards, and validation procedures to ensure data integrity and compliance with industry standards.",
+          "Performed gap analysis and impact assessments for system integrations, providing recommendations to optimize data workflows and improve operational efficiency.",
         ],
       },
     ],
@@ -69,10 +95,10 @@ const translations = {
       {
         companyTitle: "Onedio",
         companyLink: "https://www.onedio.com/",
-        location: "İstanbul, Türkiye (Uzaktan)",
-        jobTitle: "Software Developer",
+        location: "İstanbul, Türkiye",
+        jobTitle: "Full Stack Developer",
         startDate: "04/2025",
-        endDate: "Halen",
+        endDate: "02/2026",
         items: [
           "Türkiye'nin önde gelen dijital medya platformunda milyonlarca günlük kullanıcı etkileşimini ve içerik dağıtımını desteklemek için microservices mimarisinde Node.js ve Koa.js framework kullanarak yüksek performanslı backend servisleri geliştirdim ve sürdürdüm.",
           "Web ve mobil platformlarda içerik yönetimi, kullanıcı analitiği ve gerçek zamanlı etkileşim özelliklerini desteklemek için AWS hizmetleri ve Kubernetes kullanarak ölçeklenebilir RESTful API'ler ve veri işleme pipeline'ları tasarladım ve uyguladım.",
@@ -84,40 +110,66 @@ const translations = {
       {
         companyTitle: "VenueX",
         companyLink: "https://venuex.io/",
-        location: "İstanbul, Türkiye (Uzaktan)",
-        jobTitle: "Software Developer",
+        location: "İstanbul, Türkiye",
+        jobTitle: "İş/Teknik Analisti & Full Stack Developer",
         startDate: "02/2023",
         endDate: "04/2025",
-        items: [
-          "Perakendecilerin mağaza, ürün ve stok verilerini online platformlara sunmak için AWS hizmetleri (Lambda, S3, ECS, ECR) ve Terraform ile ETL (Extract, Transform, Load) pipeline tasarımını yaptım ve sürdürdüm. Hashing tabanlı veri fark aracını geliştirerek ETL yükünü %80'in üzerinde azalttım.",
-          "Pipeline tarafından üretilen verilerin ilgili platformlara güvenli ve doğru bir şekilde API'lar aracılığıyla iletilmesini sağladım (Google Business Profile, Google Content API, Google Ads, Google Merchant Center, Meta, Apple).",
-          "Veri işleme ve iletimi için RESTful backend API'leri (NestJS, TypeScript) geliştirdim ve sürdürdüm. Kullanıcı kontrol panelleri, rapor sayfaları (ReactJS, TypeScript, MUI) ve veri entegrasyon kanalları tasarladım. Kullanıcı senaryoları için Cypress kullanarak uçtan uca testler gerçekleştirdim.",
-          "Terraform ile dağıtılan altyapı yığınlarını (EC2, ECS) ve MongoDB veritabanı katmanını yönettim ve sorun giderdim. Altyapı ve veritabanı anormalliklerinin erken tespiti için özel uyarılar (SNS) kurdum.",
+        roleGroups: [
+          {
+            roleTitle: "İş/Teknik Analisti Görevi",
+            items: [
+              "E-ticaret platform entegrasyonları için perakende müşterilerinden iş gereksinimlerini topladım ve analiz ettim. Karmaşık veri entegrasyon ihtiyaçlarını ETL pipeline geliştirme için BRD ve Use Case dokümanlarına dönüştürdüm.",
+              "Miro kullanarak paydaş workshopları düzenledim, işbirlikçi gereksinim haritalama ve süreç görselleştirme gerçekleştirdim. Çoklu platform entegrasyonları (Google Business Profile, Google Ads, Meta, Apple) için veri akış diyagramları oluşturdum.",
+              "Postman ve Swagger kullanarak API entegrasyonlarını doğruladım, perakende sistemleri ve e-ticaret platformları arasındaki veri doğruluğunu sağladım. Envanter ve satış raporlaması için karmaşık SQL sorguları yazdım.",
+              "SOAP UI ile API testleri, fonksiyonel ve regresyon testleri gerçekleştirdim. Birden fazla platformda sorunsuz veri senkronizasyonu sağlayarak UAT süreçlerini yönettim.",
+              "JIRA'da sprint planlama ve backlog yönetimi yaptım, Agile metodolojisi takip ederek teknik spesifikasyonları Confluence'da dokümante ettim.",
+            ],
+          },
+          {
+            roleTitle: "Full Stack Developer Görevi",
+            items: [
+              "RESTful backend API'leri (NestJS, TypeScript) geliştirdim ve kullanıcı kontrol panelleri ile raporlama dashboardları (ReactJS, TypeScript, MUI) tasarladım.",
+              "AWS hizmetleri (Lambda, S3, ECS, ECR) ve Terraform ile ETL pipeline tasarladım. ETL yükünü %80'in üzerinde azaltan hashing tabanlı optimizasyon aracı geliştirdim.",
+              "Terraform ile dağıtılan altyapıyı ve MongoDB veritabanlarını yönettim, izleme çözümleri ve proaktif uyarı mekanizmaları (SNS) uyguladım.",
+            ],
+          },
         ],
       },
       {
         companyTitle: "KNS Bilgi Teknolojileri",
         companyLink: "https://www.kns.com.tr/",
-        location: "İstanbul, Türkiye (Uzaktan)",
-        jobTitle: "Software Developer",
+        location: "İstanbul, Türkiye",
+        jobTitle: "İş/Teknik Analisti",
         startDate: "07/2019",
         endDate: "02/2023",
         items: [
-          "AVM, havaalanı ve hastane gibi büyük yapıların  Apple ve Google Maps ile entegrasyon sağladım.",
-          "Entegrasyon yönetimi için Frontend, Backend, DevOps ve UI/UX tasarımı dahil tüm entegrasyon ve geliştirme çalışmalarında aktif olarak görev aldım. Bu kapsamda, veri işleme ve iletimi için RESTful backend API'leri (NestJS, TypeScript) geliştirdim ve sürdürdüm. Kullanıcı kontrol panelleri, rapor sayfaları (ReactJS, TypeScript, MUI) ve veri entegrasyon kanalları tasarladım. Kullanıcı senaryoları için Cypress kullanarak uçtan uca testler gerçekleştirdim. Ayrıca, Terraform ile dağıtılan altyapı yığınlarını (EC2, ECS) ve MongoDB veritabanı katmanını yönettim ve sorun giderdim. Altyapı ve veritabanı anormalliklerinin erken tespiti için özel uyarılar (SNS) kurdum.",
+          "AVM, havaalanı ve hastane için Apple ve Google Maps entegrasyonlu iç mekan haritalama çözümleri için gereksinim toplama süreçlerini yönettim. BRD, GTD, TTD ve Use Case dokümantasyonu hazırladım.",
+          "Figma üzerinde tasarım ekipleriyle UI/UX mockup'larını inceledim, kullanıcı gereksinimleri ile arayüz tasarımları arasındaki uyumu sağladım. Kullanıcı akış diyagramları ve wireframe geri bildirim dokümantasyonu oluşturdum.",
+          "MS Visio kullanarak iş süreçlerini ve sistem entegrasyonlarını modelledim, lokasyon tabanlı hizmetler için detaylı veri akış diyagramları ve iş akışı dokümantasyonu oluşturdum.",
+          "Postman ile RESTful API'leri test ettim ve SOAP UI ile SOAP servislerini doğruladım, dahili sistemler ile Apple/Google platformları arasındaki harita veri senkronizasyonu doğruluğunu sağladım.",
+          "Karmaşık SQL sorguları ile veritabanı analizi yaparak lokasyon verisi bütünlüğünü doğruladım ve paydaş karar alma süreçleri için raporlar oluşturdum.",
+          "Müşteri lokasyonlarında son kullanıcılarla UAT oturumları koordine ettim, geri bildirimleri dokümante ettim ve hata çözümlerini JIRA üzerinden yönettim.",
+          "Confluence'da proje dokümantasyonu ve bilgi tabanı sürdürdüm, geliştirme döngüleri arasında bilgi transferini kolaylaştırdım.",
+          "Haritalama SDK entegrasyonlarının fonksiyonel spesifikasyonları karşıladığından emin olmak için iOS ve Android geliştirme ekipleriyle işbirliği yaptım.",
         ],
       },
       {
         companyTitle: "Geotek Coğrafi Bilgi Sistemleri",
         companyLink: "#",
         location: "İstanbul, Türkiye",
-        jobTitle: "GIS Specialist",
+        jobTitle: "İş/Teknik Analisti",
         startDate: "12/2016",
         endDate: "06/2019",
         items: [
-          "Binlerce harita verisini analiz ederek metro istasyonlarının mekanik, elektrik ve statik disiplinlerini kapsayan 3D GIS haritalarını başarıyla hazırladım.",
-          "Proje boyunca 3D modelleme ve veri entegrasyonu konularında kapsamlı çalışmalar yürüttüm, yüksek doğruluk ve uyumluluk standartlarını sağladım.",
-          "Projenin başından sonuna kadar 3D veri modellerinin yönetimi ve kontrolünü üstlenerek veri bütünlüğünü korudum.",
+          "İş gereksinimlerinin belirlenmesi ve entegrasyon ihtiyaçları için paydaş toplantıları düzenledim.",
+          "BRD dokümanlarını hazırladım ve dokümantasyon süreçlerini uçtan uca yönetilmesinde aktif olarak görev aldım.",
+          "Proje ve taleplerin SDLC süreçlerine uygunluğunu takip ettim.",
+          "JIRA üzerinden talep, defect ve bug yönetimini gerçekleştirdim; JIRA'da dashboardlar hazırladım, Confluence'da dokümantasyon sağladım. Proje takvimi ve ilerleme takibini yaptım.",
+          "SQL ve benzeri araçlarla veri analizleri gerçekleştirdim.",
+          "Mekanik, elektrik ve yapısal disiplinlerdeki binlerce mühendislik dokümanı üzerinde kapsamlı veri analizi gerçekleştirdim, detaylı gereksinim spesifikasyonları ve fonksiyonel dokümantasyon oluşturdum.",
+          "Proje yaşam döngüsü boyunca iş ihtiyaçları ile teknik uygulama arasındaki uyumu sağlamak için mühendisler, proje yöneticileri ve teknik personel dahil çapraz fonksiyonel ekiplerle işbirliği yaptım.",
+          "Veri bütünlüğünü ve endüstri standartlarına uyumu sağlamak için proje dokümantasyonu, veri kalite standartları ve doğrulama prosedürleri geliştirdim ve sürdürdüm.",
+          "Sistem entegrasyonları için boşluk analizi ve etki değerlendirmeleri yaparak veri iş akışlarını optimize etmek ve operasyonel verimliliği artırmak için öneriler sundum.",
         ],
       },
     ],
@@ -151,9 +203,10 @@ class Experience extends React.Component {
             jobTitle={job.jobTitle}
             startDate={job.startDate}
             endDate={job.endDate}
-            items={job.items.map((item, idx) => (
+            roleGroups={job.roleGroups}
+            items={job.items ? job.items.map((item, idx) => (
               <span key={idx}>{item}</span>
-            ))}
+            )) : undefined}
           />
         ))}
       </div>

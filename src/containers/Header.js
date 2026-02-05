@@ -7,7 +7,7 @@ const translations = {
   en: {
     title: "Onur TÜYSÜZ ▸ CV",
     name: "Onur TÜYSÜZ",
-    role: "Software Developer",
+    role: "Business/Technical Analyst & Full Stack Developer",
     contact: "+90 506 511 78 07",
     email: "onurtuysuz63@gmail.com",
     github: "github.com/onrtysz",
@@ -16,7 +16,7 @@ const translations = {
   tr: {
     title: "Onur TÜYSÜZ ▸ Özgeçmiş",
     name: "Onur TÜYSÜZ",
-    role: "Software Developer",
+    role: "İş/Teknik Analisti & Full Stack Developer",
     contact: "+90 506 511 78 07",
     email: "onurtuysuz63@gmail.com",
     github: "github.com/onrtysz",

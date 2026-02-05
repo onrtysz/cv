@@ -12,16 +12,7 @@ class Footer extends React.Component {
         }}
         className="px10"
       >
-        <span>
-          Designed and developed by{" "}
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/onrtysz"
-          >
-            Onur TÜYSÜZ
-          </a>{" "}
-        </span>
+       
       </div>
     );
   }
