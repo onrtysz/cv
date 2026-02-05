@@ -113,7 +113,7 @@ const translations = {
           "Miro kullanarak paydaş workshopları düzenledim, işbirlikçi gereksinim haritalama gerçekleştirdim. Çoklu platform entegrasyonları (Google Business Profile, Google Ads, Meta, Apple) için detaylı teknik spesifikasyonlar ve veri akış diyagramları oluşturdum.",
           "Backend API'ler (NestJS, TypeScript) ve frontend dashboardlar (ReactJS, MUI) için fonksiyonel gereksinimleri tanımladım, iş ihtiyaçları ile teknik uygulama arasındaki uyumu sağladım.",
           "Postman ve Swagger kullanarak API entegrasyonlarını doğruladım, RESTful servisleri test ettim ve perakende sistemleri ile e-ticaret platformları arasındaki veri doğruluğunu kontrol ettim. Geliştirme ekipleri için API spesifikasyonlarını dokümante ettim.",
-          "SOAP UI ile kapsamlı API testleri, ETL pipeline'larında fonksiyonel ve regresyon testleri gerçekleştirdim. Veri işleme yükünde %80 azalma sağlayan optimizasyon fırsatlarını belirledim.",
+          "SOAP UI ile kapsamlı API testleri, fonksiyonel ve regresyon testleri gerçekleştirdim. Veri işleme yükünde %80 azalma sağlayan optimizasyon fırsatlarını belirledim.",
           "Veri bütünlüğünü doğrulamak, envanter raporları oluşturmak ve perakende analitiği için iş zekası ihtiyaçlarını desteklemek üzere MongoDB için karmaşık sorguları yazdım.",
           "Perakende müşterilerle koordineli UAT süreçlerini yönettim, test senaryoları ve kabul kriterlerini dokümante ettim. Hataları ve çözümleri JIRA üzerinden takip ettim.",
           "Agile/Scrum metodolojisi takip ederek sprint planlama, backlog yönetimi ve günlük toplantıları yönettim. İş paydaşları ve geliştirme ekipleri arasında köprü görevi üstlendim.",
