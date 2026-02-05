@@ -25,29 +25,21 @@ const translations = {
       {
         companyTitle: "VenueX",
         companyLink: "https://venuex.io/",
-        location: "Istanbul, Turkey (Remote)",
-        jobTitle: "Business/Technical Analyst & Full Stack Developer",
+        location: "Istanbul, Turkey",
+        jobTitle: "Business/Technical Analyst",
         startDate: "02/2023",
         endDate: "04/2025",
-        roleGroups: [
-          {
-            roleTitle: "Business/Technical Analyst Role",
-            items: [
-              "Gathered and analyzed business requirements from retail customers for e-commerce platform integrations. Transformed complex data integration needs into BRD and Use Case documents for ETL pipeline development.",
-              "Organized stakeholder workshops using Miro, performing collaborative requirements mapping and process visualization. Created data flow diagrams for multi-platform integrations (Google Business Profile, Google Ads, Meta, Apple).",
-              "Validated API integrations using Postman and Swagger, ensuring data accuracy between retail systems and e-commerce platforms. Wrote complex SQL queries for inventory and sales reporting.",
-              "Conducted API tests with SOAP UI, performed functional and regression testing. Managed UAT processes ensuring seamless data synchronization across multiple platforms.",
-              "Performed sprint planning and backlog management in JIRA, documented technical specifications in Confluence following Agile methodology.",
-            ],
-          },
-          {
-            roleTitle: "Full Stack Developer Role",
-            items: [
-              "Developed RESTful backend APIs (NestJS, TypeScript) and designed user control panels with reporting dashboards (ReactJS, TypeScript, MUI).",
-              "Designed ETL pipeline with AWS services (Lambda, S3, ECS, ECR) and Terraform. Developed a hashing-based optimization tool that reduced ETL load by over 80%.",
-              "Managed Terraform-deployed infrastructure and MongoDB databases, implemented monitoring solutions and proactive alert mechanisms (SNS).",
-            ],
-          },
+        items: [
+          "Managed end-to-end business analysis for enterprise retail integrations with Turkey's leading retail chains such as Migros, A101, BİM, and LC Waikiki, working with Agile and SDLC methodologies, enabling big data processing capabilities.",
+          "Responsible for presentations, reporting, team task distribution, and task tracking as part of my role.",
+          "Gathered and analyzed business requirements from retail customers for e-commerce platform integrations. Prepared BRD and Use Case documents for ETL pipeline to be developed using AWS services (Lambda, S3, ECS).",
+          "Organized stakeholder workshops using Miro, performed collaborative requirements mapping. Created detailed technical specifications and data flow diagrams for multi-platform integrations (Google Business Profile, Google Ads, Meta, Apple).",
+          "Defined functional requirements for backend APIs (NestJS, TypeScript) and frontend dashboards (ReactJS, MUI), ensuring alignment between business needs and technical implementation.",
+          "Validated API integrations using Postman and Swagger, tested RESTful services, and verified data accuracy between retail systems and e-commerce platforms. Documented API specifications for development teams.",
+          "Conducted comprehensive API tests with SOAP UI, performed functional and regression tests on ETL pipelines. Identified optimization opportunities that reduced data processing load by 80%.",
+          "Wrote complex queries for MongoDB to validate data integrity, generate inventory reports, and support business intelligence needs for retail analytics.",
+          "Managed coordinated UAT processes with retail customers, documented test scenarios and acceptance criteria. Tracked defects and resolutions through JIRA.",
+          "Led sprint planning, backlog management, and daily meetings following Agile/Scrum methodology. Served as a bridge between business stakeholders and development teams.",
         ],
       },
       {
@@ -111,28 +103,20 @@ const translations = {
         companyTitle: "VenueX",
         companyLink: "https://venuex.io/",
         location: "İstanbul, Türkiye",
-        jobTitle: "İş/Teknik Analisti & Full Stack Developer",
+        jobTitle: "İş/Teknik Analisti",
         startDate: "02/2023",
         endDate: "04/2025",
-        roleGroups: [
-          {
-            roleTitle: "İş/Teknik Analisti Görevi",
-            items: [
-              "E-ticaret platform entegrasyonları için perakende müşterilerinden iş gereksinimlerini topladım ve analiz ettim. Karmaşık veri entegrasyon ihtiyaçlarını ETL pipeline geliştirme için BRD ve Use Case dokümanlarına dönüştürdüm.",
-              "Miro kullanarak paydaş workshopları düzenledim, işbirlikçi gereksinim haritalama ve süreç görselleştirme gerçekleştirdim. Çoklu platform entegrasyonları (Google Business Profile, Google Ads, Meta, Apple) için veri akış diyagramları oluşturdum.",
-              "Postman ve Swagger kullanarak API entegrasyonlarını doğruladım, perakende sistemleri ve e-ticaret platformları arasındaki veri doğruluğunu sağladım. Envanter ve satış raporlaması için karmaşık SQL sorguları yazdım.",
-              "SOAP UI ile API testleri, fonksiyonel ve regresyon testleri gerçekleştirdim. Birden fazla platformda sorunsuz veri senkronizasyonu sağlayarak UAT süreçlerini yönettim.",
-              "JIRA'da sprint planlama ve backlog yönetimi yaptım, Agile metodolojisi takip ederek teknik spesifikasyonları Confluence'da dokümante ettim.",
-            ],
-          },
-          {
-            roleTitle: "Full Stack Developer Görevi",
-            items: [
-              "RESTful backend API'leri (NestJS, TypeScript) geliştirdim ve kullanıcı kontrol panelleri ile raporlama dashboardları (ReactJS, TypeScript, MUI) tasarladım.",
-              "AWS hizmetleri (Lambda, S3, ECS, ECR) ve Terraform ile ETL pipeline tasarladım. ETL yükünü %80'in üzerinde azaltan hashing tabanlı optimizasyon aracı geliştirdim.",
-              "Terraform ile dağıtılan altyapıyı ve MongoDB veritabanlarını yönettim, izleme çözümleri ve proaktif uyarı mekanizmaları (SNS) uyguladım.",
-            ],
-          },
+        items: [
+          "Migros, A101, BİM ve LC Waikiki gibi Türkiye'nin önde gelen perakende zincirleri için kurumsal perakende entegrasyonlarında uçtan uca Agile ve SDLC metodolojileri ile çalışarak iş analizi yönettim, bu sayede büyük verilerle çalışma olanağı sağladım.",
+          "Rolümün sorumluluğu gereği sunum, raporlama, ekip iş paylaşımı ve iş takiplerini yaptım.",
+          "E-ticaret platform entegrasyonları için perakende müşterilerinden iş gereksinimlerini topladım ve analiz ettim. AWS hizmetleri (Lambda, S3, ECS) kullanılarak geliştirilecek ETL pipeline için BRD ve Use Case dokümanları hazırladım.",
+          "Miro kullanarak paydaş workshopları düzenledim, işbirlikçi gereksinim haritalama gerçekleştirdim. Çoklu platform entegrasyonları (Google Business Profile, Google Ads, Meta, Apple) için detaylı teknik spesifikasyonlar ve veri akış diyagramları oluşturdum.",
+          "Backend API'ler (NestJS, TypeScript) ve frontend dashboardlar (ReactJS, MUI) için fonksiyonel gereksinimleri tanımladım, iş ihtiyaçları ile teknik uygulama arasındaki uyumu sağladım.",
+          "Postman ve Swagger kullanarak API entegrasyonlarını doğruladım, RESTful servisleri test ettim ve perakende sistemleri ile e-ticaret platformları arasındaki veri doğruluğunu kontrol ettim. Geliştirme ekipleri için API spesifikasyonlarını dokümante ettim.",
+          "SOAP UI ile kapsamlı API testleri, ETL pipeline'larında fonksiyonel ve regresyon testleri gerçekleştirdim. Veri işleme yükünde %80 azalma sağlayan optimizasyon fırsatlarını belirledim.",
+          "Veri bütünlüğünü doğrulamak, envanter raporları oluşturmak ve perakende analitiği için iş zekası ihtiyaçlarını desteklemek üzere MongoDB için karmaşık sorguları yazdım.",
+          "Perakende müşterilerle koordineli UAT süreçlerini yönettim, test senaryoları ve kabul kriterlerini dokümante ettim. Hataları ve çözümleri JIRA üzerinden takip ettim.",
+          "Agile/Scrum metodolojisi takip ederek sprint planlama, backlog yönetimi ve günlük toplantıları yönettim. İş paydaşları ve geliştirme ekipleri arasında köprü görevi üstlendim.",
         ],
       },
       {
