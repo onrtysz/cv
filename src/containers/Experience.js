@@ -3,7 +3,7 @@ import SectionItem from "../components/SectionItem";
 import SectionTitle from "../components/SectionTitle";
 import { LanguageContext } from "../utils/languageContext";
 
-const translations = {
+const translations={
   en: {
     title: "EXPERIENCE",
     jobs: [
@@ -109,13 +109,14 @@ const translations = {
         items: [
           "Migros, A101, BİM ve LC Waikiki gibi Türkiye'nin önde gelen perakende zincirleri için kurumsal perakende entegrasyonlarında uçtan uca Agile ve SDLC metodolojileri ile çalışarak iş analizi yönettim, bu sayede büyük verilerle çalışma olanağı sağladım.",
           "Rolümün sorumluluğu gereği sunum, raporlama, ekip iş paylaşımı ve iş takiplerini yaptım.",
-          "E-ticaret platform entegrasyonları için perakende müşterilerinden iş gereksinimlerini topladım ve analiz ettim. AWS hizmetleri (Lambda, S3, ECS) kullanılarak geliştirilecek ETL pipeline için BRD ve Use Case dokümanları hazırladım.",
+          "E-ticaret platform entegrasyonları için perakende müşterilerinden iş gereksinimlerini topladım ve analiz ettim. AWS hizmetleri (Lambda, S3, ECS) kullanılarak geliştirilecek veri dönüşüm pipelineları için BRD ve Use Case dokümanları hazırladım.",
           "Miro kullanarak paydaş workshopları düzenledim, işbirlikçi gereksinim haritalama gerçekleştirdim. Çoklu platform entegrasyonları (Google Business Profile, Google Ads, Meta, Apple) için detaylı teknik spesifikasyonlar ve veri akış diyagramları oluşturdum.",
           "Backend API'ler (NestJS, TypeScript) ve frontend dashboardlar (ReactJS, MUI) için fonksiyonel gereksinimleri tanımladım, iş ihtiyaçları ile teknik uygulama arasındaki uyumu sağladım.",
           "Postman ve Swagger kullanarak API entegrasyonlarını doğruladım, RESTful servisleri test ettim ve perakende sistemleri ile e-ticaret platformları arasındaki veri doğruluğunu kontrol ettim. Geliştirme ekipleri için API spesifikasyonlarını dokümante ettim.",
           "SOAP UI ile kapsamlı API testleri, fonksiyonel ve regresyon testleri gerçekleştirdim. Veri işleme yükünde %80 azalma sağlayan optimizasyon fırsatlarını belirledim.",
-          "Veri bütünlüğünü doğrulamak, envanter raporları oluşturmak ve perakende analitiği için iş zekası ihtiyaçlarını desteklemek üzere MongoDB için karmaşık sorguları yazdım.",
+          "Veri bütünlüğünü doğrulamak, envanter raporları oluşturmak ve perakende analitiği için iş zekası ihtiyaçlarını desteklemek üzere Oracle ve MongoDB için karmaşık sorguları yazdım.",
           "Perakende müşterilerle koordineli UAT süreçlerini yönettim, test senaryoları ve kabul kriterlerini dokümante ettim. Hataları ve çözümleri JIRA üzerinden takip ettim.",
+          "SQL sorguları ile veritabanı analizi yaparak veri bütünlüğünü doğruladım ve paydaş karar alma süreçleri için raporlar oluşturdum.",
           "Agile/Scrum metodolojisi takip ederek sprint planlama, backlog yönetimi ve günlük toplantıları yönettim. İş paydaşları ve geliştirme ekipleri arasında köprü görevi üstlendim.",
         ],
       },
@@ -131,14 +132,14 @@ const translations = {
           "Figma üzerinde tasarım ekipleriyle UI/UX mockup'larını inceledim, kullanıcı gereksinimleri ile arayüz tasarımları arasındaki uyumu sağladım. Kullanıcı akış diyagramları ve wireframe geri bildirim dokümantasyonu oluşturdum.",
           "MS Visio kullanarak iş süreçlerini ve sistem entegrasyonlarını modelledim, lokasyon tabanlı hizmetler için detaylı veri akış diyagramları ve iş akışı dokümantasyonu oluşturdum.",
           "Postman ile RESTful API'leri test ettim ve SOAP UI ile SOAP servislerini doğruladım, dahili sistemler ile Apple/Google platformları arasındaki harita veri senkronizasyonu doğruluğunu sağladım.",
-          "Karmaşık SQL sorguları ile veritabanı analizi yaparak lokasyon verisi bütünlüğünü doğruladım ve paydaş karar alma süreçleri için raporlar oluşturdum.",
+          "SQL sorguları ile veritabanı analizi yaparak lokasyon verisi bütünlüğünü doğruladım ve paydaş karar alma süreçleri için raporlar oluşturdum.",
           "Müşteri lokasyonlarında son kullanıcılarla UAT oturumları koordine ettim, geri bildirimleri dokümante ettim ve hata çözümlerini JIRA üzerinden yönettim.",
-          "Confluence'da proje dokümantasyonu ve bilgi tabanı sürdürdüm, geliştirme döngüleri arasında bilgi transferini kolaylaştırdım.",
+          "Confluence'da proje dokümantasyonlarını sağladım, geliştirme döngüleri arasında bilgi transferini kolaylaştırdım.",
           "Haritalama SDK entegrasyonlarının fonksiyonel spesifikasyonları karşıladığından emin olmak için iOS ve Android geliştirme ekipleriyle işbirliği yaptım.",
         ],
       },
       {
-        companyTitle: "Geotek Coğrafi Bilgi Sistemleri",
+        companyTitle: "Geotech / İBB Metro Istanbul",
         companyLink: "#",
         location: "İstanbul, Türkiye",
         jobTitle: "İş/Teknik Analisti",
@@ -163,11 +164,11 @@ const translations = {
 };
 
 class Experience extends React.Component {
-  static contextType = LanguageContext;
+  static contextType=LanguageContext;
 
   render() {
-    const { language } = this.context;
-    const t = translations[language];
+    const { language }=this.context;
+    const t=translations[language];
 
     return (
       <div>
@@ -190,9 +191,9 @@ class Experience extends React.Component {
             startDate={job.startDate}
             endDate={job.endDate}
             roleGroups={job.roleGroups}
-            items={job.items ? job.items.map((item, idx) => (
+            items={job.items? job.items.map((item, idx) => (
               <span key={idx}>{item}</span>
-            )) : undefined}
+            )):undefined}
           />
         ))}
       </div>
