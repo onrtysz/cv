@@ -36,7 +36,7 @@ const translations = {
       {
         companyTitle: "Yıldız Teknik Üniversitesi",
         location: "İstanbul, Türkiye",
-        jobTitle: "Harita Mühendisliği",
+        jobTitle: "Geomatik Mühendisliği",
         startDate: "2012",
         endDate: "2016",
       },
