@@ -3,7 +3,7 @@ import SectionItem from "../components/SectionItem";
 import SectionTitle from "../components/SectionTitle";
 import { LanguageContext } from "../utils/languageContext";
 
-const translations = {
+const translations={
   en: {
     title: "EXPERIENCE",
     jobs: [
@@ -118,9 +118,10 @@ const translations = {
           {
             roleTitle: "İş/Teknik Analisti Görevi",
             items: [
-              "E-ticaret platform entegrasyonları için perakende müşterilerinden iş gereksinimlerini topladım ve analiz ettim. Karmaşık veri entegrasyon ihtiyaçlarını ETL pipeline geliştirme için BRD ve Use Case dokümanlarına dönüştürdüm.",
+              "Agile ve SDLC metodolojileri ile çalışarak iş analizi yönettim.",
+              "E-ticaret platform entegrasyonları için perakende müşterilerinden iş gereksinimlerini topladım ve analiz ettim. Karmaşık veri entegrasyon ihtiyaçlarını veri dönüşüm pipelinelarını geliştirme için BRD ve Use Case dokümanlarına dönüştürdüm.",
               "Miro kullanarak paydaş workshopları düzenledim, işbirlikçi gereksinim haritalama ve süreç görselleştirme gerçekleştirdim. Çoklu platform entegrasyonları (Google Business Profile, Google Ads, Meta, Apple) için veri akış diyagramları oluşturdum.",
-              "Postman ve Swagger kullanarak API entegrasyonlarını doğruladım, perakende sistemleri ve e-ticaret platformları arasındaki veri doğruluğunu sağladım. Envanter ve satış raporlaması için karmaşık SQL sorguları yazdım.",
+              "Postman ve Swagger kullanarak API entegrasyonlarını doğruladım, perakende sistemleri ve e-ticaret platformları arasındaki veri doğruluğunu sağladım. Envanter ve satış raporlaması için SQL sorguları yazdım.",
               "SOAP UI ile API testleri, fonksiyonel ve regresyon testleri gerçekleştirdim. Birden fazla platformda sorunsuz veri senkronizasyonu sağlayarak UAT süreçlerini yönettim.",
               "JIRA'da sprint planlama ve backlog yönetimi yaptım, Agile metodolojisi takip ederek teknik spesifikasyonları Confluence'da dokümante ettim.",
             ],
@@ -129,7 +130,7 @@ const translations = {
             roleTitle: "Full Stack Developer Görevi",
             items: [
               "RESTful backend API'leri (NestJS, TypeScript) geliştirdim ve kullanıcı kontrol panelleri ile raporlama dashboardları (ReactJS, TypeScript, MUI) tasarladım.",
-              "AWS hizmetleri (Lambda, S3, ECS, ECR) ve Terraform ile ETL pipeline tasarladım. ETL yükünü %80'in üzerinde azaltan hashing tabanlı optimizasyon aracı geliştirdim.",
+              "AWS hizmetleri (Lambda, S3, ECS, ECR) ve Terraform ile veri dönüşüm pipelineları tasarladım. ETL yükünü %80'in üzerinde azaltan hashing tabanlı optimizasyon aracı geliştirdim.",
               "Terraform ile dağıtılan altyapıyı ve MongoDB veritabanlarını yönettim, izleme çözümleri ve proaktif uyarı mekanizmaları (SNS) uyguladım.",
             ],
           },
@@ -147,14 +148,14 @@ const translations = {
           "Figma üzerinde tasarım ekipleriyle UI/UX mockup'larını inceledim, kullanıcı gereksinimleri ile arayüz tasarımları arasındaki uyumu sağladım. Kullanıcı akış diyagramları ve wireframe geri bildirim dokümantasyonu oluşturdum.",
           "MS Visio kullanarak iş süreçlerini ve sistem entegrasyonlarını modelledim, lokasyon tabanlı hizmetler için detaylı veri akış diyagramları ve iş akışı dokümantasyonu oluşturdum.",
           "Postman ile RESTful API'leri test ettim ve SOAP UI ile SOAP servislerini doğruladım, dahili sistemler ile Apple/Google platformları arasındaki harita veri senkronizasyonu doğruluğunu sağladım.",
-          "Karmaşık SQL sorguları ile veritabanı analizi yaparak lokasyon verisi bütünlüğünü doğruladım ve paydaş karar alma süreçleri için raporlar oluşturdum.",
+          "SQL sorguları ile veritabanı analizi yaparak lokasyon verisi bütünlüğünü doğruladım ve paydaş karar alma süreçleri için raporlar oluşturdum.",
           "Müşteri lokasyonlarında son kullanıcılarla UAT oturumları koordine ettim, geri bildirimleri dokümante ettim ve hata çözümlerini JIRA üzerinden yönettim.",
-          "Confluence'da proje dokümantasyonu ve bilgi tabanı sürdürdüm, geliştirme döngüleri arasında bilgi transferini kolaylaştırdım.",
+          "Confluence'da proje dokümantasyonlarını sağladım, geliştirme döngüleri arasında bilgi transferini kolaylaştırdım.",
           "Haritalama SDK entegrasyonlarının fonksiyonel spesifikasyonları karşıladığından emin olmak için iOS ve Android geliştirme ekipleriyle işbirliği yaptım.",
         ],
       },
       {
-        companyTitle: "Geotek Coğrafi Bilgi Sistemleri",
+        companyTitle: "Geotech / İBB Metro Istanbul",
         companyLink: "#",
         location: "İstanbul, Türkiye",
         jobTitle: "İş/Teknik Analisti",
@@ -179,11 +180,11 @@ const translations = {
 };
 
 class Experience extends React.Component {
-  static contextType = LanguageContext;
+  static contextType=LanguageContext;
 
   render() {
-    const { language } = this.context;
-    const t = translations[language];
+    const { language }=this.context;
+    const t=translations[language];
 
     return (
       <div>
@@ -206,9 +207,9 @@ class Experience extends React.Component {
             startDate={job.startDate}
             endDate={job.endDate}
             roleGroups={job.roleGroups}
-            items={job.items ? job.items.map((item, idx) => (
+            items={job.items? job.items.map((item, idx) => (
               <span key={idx}>{item}</span>
-            )) : undefined}
+            )):undefined}
           />
         ))}
       </div>
