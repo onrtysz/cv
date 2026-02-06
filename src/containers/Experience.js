@@ -150,6 +150,8 @@ const translations = {
           "Proje ve taleplerin SDLC süreçlerine uygunluğunu takip ettim.",
           "JIRA üzerinden talep, defect ve bug yönetimini gerçekleştirdim; JIRA'da dashboardlar hazırladım, Confluence'da dokümantasyon sağladım. Proje takvimi ve ilerleme takibini yaptım.",
           "SQL ve benzeri araçlarla veri analizleri gerçekleştirdim.",
+          "SoapUI ve Postman ile API testleri gerçekleştirdim.",
+          "UAT süreçlerini yönettim, test senaryoları ve kabul kriterlerini dokümante ettim.",
           "Mekanik, elektrik ve yapısal disiplinlerdeki binlerce mühendislik dokümanı üzerinde kapsamlı veri analizi gerçekleştirdim, detaylı gereksinim spesifikasyonları ve fonksiyonel dokümantasyon oluşturdum.",
           "Proje yaşam döngüsü boyunca iş ihtiyaçları ile teknik uygulama arasındaki uyumu sağlamak için mühendisler, proje yöneticileri ve teknik personel dahil çapraz fonksiyonel ekiplerle işbirliği yaptım.",
           "Veri bütünlüğünü ve endüstri standartlarına uyumu sağlamak için proje dokümantasyonu, veri kalite standartları ve doğrulama prosedürleri geliştirdim ve sürdürdüm.",
