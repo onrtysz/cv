@@ -3,7 +3,7 @@ import SectionItem from "../components/SectionItem";
 import SectionTitle from "../components/SectionTitle";
 import { LanguageContext } from "../utils/languageContext";
 
-const translations = {
+const translations={
   en: {
     title: "EXPERIENCE",
     jobs: [
@@ -14,11 +14,13 @@ const translations = {
         jobTitle: "Full Stack Developer",
         startDate: "04/2025",
         endDate: "02/2026",
+        description: "Worked as a full stack developer in microservices architecture serving millions of users on Turkey's leading digital media platform.",
         items: [
-          "Developed high-performance backend services using Node.js, Koa.js in microservices architecture for Turkey's leading digital media platform serving millions of daily users.",
-          "Designed scalable RESTful APIs and data pipelines using AWS, Kubernetes, MongoDB, DynamoDB, and Elasticsearch for content management and user analytics.",
-          "Architected microservices infrastructure on AWS with Docker, CI/CD pipelines, and auto-scaling to ensure 99.9% uptime.",
-          "Collaborated with frontend teams using React.js, implemented unit and integration testing strategies.",
+          "Development of high-performance backend services with Node.js and Koa.js in microservices architecture.",
+          "Designing AI-powered content management using Gemini and ChatGPT APIs.",
+          "Designing scalable RESTful APIs and data pipelines for content management and user analytics using AWS, Kubernetes, MongoDB, DynamoDB, PostgreSQL, Redis, and Elasticsearch.",
+          "Implementation of Docker, CI/CD pipelines, and auto-scaling.",
+          "Development and usage of components and pages with React.js.",
         ],
       },
       {
@@ -28,12 +30,18 @@ const translations = {
         jobTitle: "Business/Technical Analyst",
         startDate: "02/2023",
         endDate: "04/2025",
-        description: "Retail advertising spend to in-store conversion project:",
+        description: "Managed web platform integration and data analysis processes for major retail clients (Migros, A101, BİM, LC Waikiki).",
         items: [
-          "Led business analysis for enterprise retail integrations (Migros, A101, BİM, LC Waikiki) using Agile/SDLC methodologies. Prepared BRD and Use Case documents for ETL pipeline development.",
-          "Organized stakeholder workshops with Miro, created data flow diagrams for multi-platform integrations (Google Business Profile, Google Ads, Meta, Apple).",
-          "Validated API integrations using Postman, Swagger, and SOAP UI. Managed UAT processes and wrote SQL queries for reporting.",
-          "Managed sprint planning, backlog in JIRA, documented specifications in Confluence. Served as bridge between stakeholders and development teams.",
+          "Managing end-to-end business analysis processes with Agile and SDLC methodologies.",
+          "Providing presentations, reporting, task tracking, and team coordination.",
+          "Analyzing business needs and transforming them into technical requirements.",
+          "Business process modeling using Visio.",
+          "Backlog request and documentation management using JIRA and Confluence.",
+          "Preparing process modeling and analysis documents (Use Case, GTD, TTD, flow diagrams).",
+          "Conducting API tests using SoapUI, Postman, Swagger.",
+          "Data validation and database analysis with SQL queries.",
+          "Testing in functional integration and regression environments.",
+          "Managing project teams and monitoring project progress.",
         ],
       },
       {
@@ -43,11 +51,15 @@ const translations = {
         jobTitle: "Business/Technical Analyst",
         startDate: "07/2019",
         endDate: "02/2023",
+        description: "Worked as a business analyst in designing IT processes for managing indoor data of shopping malls and airports.",
         items: [
-          "Led requirements gathering for indoor mapping solutions with Apple/Google Maps integration. Prepared BRD, GTD, TTD, and Use Case documentation.",
-          "Reviewed UI/UX mockups on Figma, modeled business processes using MS Visio, created data flow diagrams for location-based services.",
-          "Tested APIs with Postman and SOAP UI, validated SQL data integrity, coordinated UAT sessions with end-users.",
-          "Maintained documentation in Confluence, managed defects through JIRA, collaborated with iOS/Android teams for SDK integrations.",
+          "Managing end-to-end business analysis processes by bridging business and technical teams.",
+          "Improving business processes, software development, and API integrations.",
+          "Optimizing business processes through process modeling.",
+          "Preparing and maintaining end-user documentation.",
+          "User experience design and UI/UX design.",
+          "Writing required Oracle PL/SQL queries in business processes.",
+          "Analyzing and testing API integration processes.",
         ],
       },
       {
@@ -57,11 +69,13 @@ const translations = {
         jobTitle: "Business/Technical Analyst",
         startDate: "12/2016",
         endDate: "06/2019",
+        description: "Worked as a business analyst for the project of digitizing Metro Istanbul's corporate document and archive processes. Managed system integration processes by identifying document management, data classification, OCR, and archiving needs.",
         items: [
-          "Led business analysis for archive digitization and indoor mapping projects for metro stations.",
-          "Prepared BRD documents, managed SDLC-compliant documentation via JIRA and Confluence.",
-          "Performed SQL data analysis, API testing (Postman, SOAP UI), and UAT management.",
-          "Collaborated with cross-functional teams to align business needs with technical implementation.",
+          "Preparing BRD documents, managing SDLC-compliant documentation with JIRA and Confluence.",
+          "Conducting stakeholder meetings, clarifying and prioritizing requirements.",
+          "SQL data analysis, API testing with Postman and SOAP UI, and UAT process management.",
+          "Ensuring alignment between business needs and technical implementation with cross-functional teams.",
+          "Managing quality assurance processes.",
         ],
       },
     ],
@@ -76,6 +90,7 @@ const translations = {
         jobTitle: "Full Stack Developer",
         startDate: "04/2025",
         endDate: "02/2026",
+        description: "Türkiye'nin önde gelen dijital medya platformunda milyonlarca kullanıcıya hizmet veren microservices mimarisinde full stack developer olarak görev yaptım.",
         items: [
           "Microservices mimarisinde Node.js ve Koa.js ile yüksek performanslı backend servisleri geliştirilmesi.",
           "Gemini ve ChatGpt API kullanarak yapay zeka destekli içerik yönetimi tasarlanması.",
@@ -91,13 +106,14 @@ const translations = {
         jobTitle: "İş/Teknik Analisti",
         startDate: "02/2023",
         endDate: "04/2025",
+        description: "Perakende (Migros, A101, BİM, LC Waikiki) sektöründe büyük müşteriler için yapılan Web platformu ile entegrasyon ve veri analizi süreçlerini yönettim.",
         items: [
           "Agile ve SDLC metodolojileri ile uçtan uca iş analizi süreçlerinin yönetilmesi.",
-          "Sunum, raporlama, iş takibi ve ekip kodinasyonun sağlanması.",
-          "İş ihtiyaçlarını analiz ederek teknik gereksinimlere dönüştürmelesi",
+          "Sunum, raporlama, iş takibi ve ekip koordinasyonunun sağlanması.",
+          "İş ihtiyaçlarını analiz ederek teknik gereksinimlere dönüştürülmesi.",
           "Visio kullanılarak iş süreçlerinin modellenmesi.",
-          "JIRA ve Confluence kullanılarak backlog talep ve dökümantasyon yönetimi.",
-          "Süreç modelleme ve analiz dökümanlarının hazırlanması.(Use Case, GTD, TTD,akış diyagramları)",
+          "JIRA ve Confluence kullanılarak backlog talep ve dokümantasyon yönetimi.",
+          "Süreç modelleme ve analiz dokümanlarının hazırlanması (Use Case, GTD, TTD, akış diyagramları).",
           "SoapUI, Postman, Swagger kullanılarak API testleri gerçekleştirilmesi.",
           "SQL sorguları ile veri doğrulama ve veritabanı analizlerinin yapılması.",
           "Fonksiyonel entegrasyon ve regresyon ortamlarında testlerin yapılması.",
@@ -111,11 +127,12 @@ const translations = {
         jobTitle: "İş/Teknik Analisti",
         startDate: "07/2019",
         endDate: "02/2023",
+        description: "Avm ve havalimanlarının iç mekan verilerinin yönetimi için IT süreçlerinin tasarlanmasında iş analisti olarak görev yaptım.",
         items: [
-          "İş ve teknik ekipler arasında köpru kurarak uçtan uca iş analizi süreçlerinin yönetilmesi.",
+          "İş ve teknik ekipler arasında köprü kurarak uçtan uca iş analizi süreçlerinin yönetilmesi.",
           "İş süreçlerini iyileştirmek, yazılım geliştirme ve API entegrasyonları sağlamak.",
           "Süreç modelleme yaparak iş süreçlerini optimize etmek.",
-          "Son kullanıcı kullanım dökümanın hazırlanması ve güncel tutulması.",
+          "Son kullanıcı kullanım dokümanının hazırlanması ve güncel tutulması.",
           "User experience design ve UI/UX tasarımının yapılması.",
           "İş süreçlerinde gerekli Oracle PL/SQL sorgularının yazılması.",
           "API entegrasyonları süreçlerinin analiz edilmesi ve test edilmesi.",
@@ -128,13 +145,13 @@ const translations = {
         jobTitle: "İş/Teknik Analisti",
         startDate: "12/2016",
         endDate: "06/2019",
+        description: "Metro İstanbul'un kurumsal doküman ve arşiv süreçlerinin dijital ortama aktarılması projesi için iş analisti olarak görev yaptım. Doküman yönetimi, veri sınıflandırma, OCR ve arşivleme ihtiyaçlarını belirleyerek sistem entegrasyonu süreçlerini yönettim.",
         items: [
-          "Metro istasyonları için arşiv dijitalleştirme ve iç mekan haritalama projelerinde iş analizi sürecinin yönetilmesi.",
           "BRD dokümanları hazırlanması, JIRA ve Confluence ile SDLC uyumlu dokümantasyon yönetimi sağlanması.",
-          "Paydaş toplantıların yürütülmesi gereksinimlerin netleştirilmesi ve önceliklendirilmesi.",
+          "Paydaş toplantılarının yürütülmesi, gereksinimlerin netleştirilmesi ve önceliklendirilmesi.",
           "SQL ile veri analizi, Postman ve SOAP UI ile API testleri ve UAT süreç yönetimi sağlanması.",
           "Çapraz fonksiyonel ekiplerle iş ihtiyaçları ve teknik uygulama arasında uyum sağlanması.",
-          "Kalite, güvence süreçlerinin yönetilmesi."
+          "Kalite güvence süreçlerinin yönetilmesi."
         ],
       },
     ],
