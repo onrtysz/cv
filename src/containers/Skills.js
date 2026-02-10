@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import SectionTitle from "../components/SectionTitle";
 import { LanguageContext } from "../utils/languageContext";
 
-const translations = {
+const translations={
   en: {
     title: "SKILLS",
     skills: [
@@ -85,6 +85,7 @@ const translations = {
           "AWS; EKS, EC2, ECS, S3, Lambda, Step Functions, DynamoDB, CloudWatch, SNS, SQS, VPC, IAM, Fargate",
           "Terraform, CDKTF",
           "Heroku",
+          "Azure DevOps",
         ],
       },
       {
@@ -184,9 +185,10 @@ const translations = {
       {
         title: "dev-ops",
         items: [
-          "AWS; EKS, EC2, ECS, S3, Lambda, Step Functions, DynamoDB, CloudWatch, SNS, SQS, VPC, IAM, Fargate",
-          "Terraform, CDKTF",
+          "AWS",
+          "GCP",
           "Heroku",
+          "Azure DevOps",
         ],
       },
       {
@@ -210,10 +212,10 @@ const translations = {
 };
 
 function Skills() {
-  const { language } = useContext(LanguageContext);
-  const t = translations[language];
+  const { language }=useContext(LanguageContext);
+  const t=translations[language];
 
-  const tagStyle = {
+  const tagStyle={
     display: "inline-block",
     backgroundColor: "#f0f4f8",
     color: "#2d3748",
@@ -224,11 +226,11 @@ function Skills() {
     border: "1px solid #e2e8f0",
   };
 
-  const categoryStyle = {
+  const categoryStyle={
     marginBottom: "12px",
   };
 
-  const categoryTitleStyle = {
+  const categoryTitleStyle={
     fontSize: "12px",
     fontWeight: "600",
     color: "#4a5568",
@@ -244,7 +246,7 @@ function Skills() {
         {t.skills.map((skill, index) => (
           <div key={index} style={{
             ...categoryStyle,
-            ...(skill.title === "front-end" && { marginTop: "20px" })
+            ...(skill.title==="front-end"&&{ marginTop: "20px" })
           }}>
             <div style={categoryTitleStyle}>{skill.title}</div>
             <div style={{ display: "flex", flexWrap: "wrap" }}>
